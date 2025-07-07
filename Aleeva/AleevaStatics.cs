@@ -12,7 +12,7 @@ namespace PlenBotLogUploader.Aleeva;
 
 internal static class AleevaStatics
 {
-    internal const string ApiBaseUrl = "https://api.aleeva.io";
+    internal const string ApiBaseUrl = "http://192.168.1.118:5601";
     internal const string Url = "https://www.aleeva.io/";
 
     internal static async Task GetAleevaTokenFromRefreshToken(FormMain mainLink, HttpClientController controller)
